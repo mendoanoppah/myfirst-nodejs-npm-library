@@ -1,0 +1,19 @@
+{
+  "name": "create-nodejs-npm-library",
+  "version": "1.0.0",
+  "description": "my new nodejs-npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mendoanoppah/myfirst-nodejs-npm-library.git"
+  },
+  "author": "ioo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mendoanoppah/myfirst-nodejs-npm-library/issues"
+  },
+  "homepage": "https://github.com/mendoanoppah/myfirst-nodejs-npm-library#readme"
+}
