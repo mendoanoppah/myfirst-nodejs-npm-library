@@ -1,8 +1,9 @@
 {
-  "name": "create-nodejs-npm-library",
-  "version": "1.0.0",
+  "name": "ioo-npm",
+  "version": "1.1.0",
   "description": "my new nodejs-npm",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,6 +13,10 @@
   },
   "author": "ioo",
   "license": "ISC",
+  "exports": {
+    ".": "./index.js",
+    "./number": "./number.js"
+  },
   "bugs": {
     "url": "https://github.com/mendoanoppah/myfirst-nodejs-npm-library/issues"
   },
